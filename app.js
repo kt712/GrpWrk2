@@ -20,4 +20,6 @@ app.get('/user', (request, response) => {
     response.json(user);
 });
 
+app.use(express.static("./"));
+
 app.listen(3000);

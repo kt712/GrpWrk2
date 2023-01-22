@@ -19,3 +19,5 @@ app.get('/lessons', (request, response) => {
 app.get('/user', (request, response) => {
     response.json(user);
 });
+
+app.listen(3000);

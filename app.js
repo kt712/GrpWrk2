@@ -7,3 +7,6 @@ let lessons = [
     {'topic':'chemistry','location':'Dubai','price':'80'},
     {'topic':'chemistry','location':'Dubai','price':'150'},
 ];
+let user = [
+    {'email': 'user@email.com', 'password':'mypassword'}
+]

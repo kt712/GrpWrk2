@@ -15,3 +15,7 @@ let user = [
 app.get('/lessons', (request, response) => {
     response.json(lessons);
 });
+
+app.get('/user', (request, response) => {
+    response.json(user);
+});
